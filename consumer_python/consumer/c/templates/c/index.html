@@ -1,0 +1,9 @@
+{% if msg_list %}
+<ul>
+	{% for msg in msg_list %}
+	<li>{{ msg.msg_text }}</li>
+	{% endfor %}
+</ul>
+{% else %}
+<p>No msgs are available.</p>
+{% endif %}

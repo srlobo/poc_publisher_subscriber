@@ -1,0 +1,6 @@
+__pycache__
+.coverage
+xmlrunner
+result
+coverage.xml
+db.sqlite3
